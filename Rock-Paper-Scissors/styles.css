@@ -1,0 +1,39 @@
+html{
+   scroll-behavior: smooth;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background: rgb(124,4,244);
+    background:linear-gradient(58deg, rgba(124,4,244,1) 0%, rgba(0,123,255,1) 10%, rgba(218,255,0,1) 25%, rgba(34,198,71,1) 38%, rgba(1,152,246,1) 47%, rgba(3,223,226,1) 65%, rgba(25,223,218,1) 75%, rgba(4,242,220,1) 93%);
+}
+.site-header{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 0px 0px 25px aliceblue, 0px 0px 25px aliceblue;
+}
+.Choices{
+    text-align: center;
+    align-items: center;
+}
+.Choices button{
+    font-size: 200px;
+    border: 10px solid transparent;
+    margin: 13px;
+    border-radius: 20px;
+    background: transparent;
+    box-sizing: content-box;
+    box-shadow: 0px 0px 25px lightgreen, 0px 0px 25px lightgreen;   
+}
+button:hover{
+    transform: scale(1.1);
+}
+.display{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 0px 0px 25px aliceblue, 0px 0px 25px aliceblue;
+}
+#resultDisplay{
+    font-size:100px;
+}
